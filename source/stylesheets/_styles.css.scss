@@ -1,0 +1,277 @@
+html{
+  overflow-x: hidden;
+}
+body{
+  background: url(https://s3.amazonaws.com/myfangate.com/asitis/stars.jpg);
+  background-repeat: repeat;
+  overflow-x: hidden;
+}
+.header{
+  margin-top: 2%;
+  text-align: center;
+  .head{
+    width: 100%;
+    padding-bottom: 5%;
+  }
+}
+.headline{
+  text-transform: uppercase;
+  span{
+    color: #eec897
+  }
+}
+p,b,i,h1,h2,h3,h4{
+  color: white;
+  text-transform: uppercase;
+}
+h1{
+  font-size: 30px !important;
+  letter-spacing: 1px;
+}
+h2{
+  margin-top: -4px;
+}
+span.tweet-text{
+  font-size: 25px;
+  font-family: 'Source Sans Pro', sans-serif;
+  letter-spacing: 1px;
+}
+.twitter{
+  background-color: #00acee;
+  border-color: #0079a8;
+  &:hover, &:active, &:focus{
+    background-color: #0079a8;
+    border-color: #00acee;
+  }
+}
+.text-center{
+  text-align: center;
+}
+.flag{
+  width: 40px;
+  margin-top: -10px;
+  margin-right: 10px;
+}
+.img-responsive{
+  margin: 0 auto;
+}
+@media (max-width: 600px) {
+  .dates{
+    .headline{
+      font-size: 15px !important;
+    }
+  }
+}
+.video{
+  border: 1px solid #eec897;
+}
+
+.divider{
+  height: 1px;
+  background-color: #eec897;
+  margin-top: 2%;
+  margin-bottom: 3%;
+}
+.restrict{
+  max-width: 450px;
+  margin: 0 auto;
+}
+.header .col-lg-7{
+  margin-top: 20px;
+}
+h1{
+  margin-top: -1px !important;
+}
+.itunes{
+  max-width: 200px;
+  margin-bottom: 10%;
+}
+.warped{
+  width: 100px;
+}
+.journeys{
+  width: 100px;
+  margin-top: -10px;
+}
+.footer{
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.smaller{
+  font-size: 25px !important;
+}
+.preorder-head{
+  padding-top: 2%;
+}
+
+//BADGE
+
+.tweet-badge{
+  position: fixed;
+  z-index: 9999;
+  -ms-transform: rotate(-12deg); /* IE 9 */
+  -webkit-transform: rotate(-12deg); /* Chrome, Safari, Opera */
+  transform: rotate(-12deg);
+  img{width: 200px;}
+  top: 30px;
+  left: 0;
+  cursor: pointer;
+}
+
+
+
+// .tweet-badge{
+//   position: absolute;
+//   z-index: 9999;
+//   -ms-transform: rotate(12deg); /* IE 9 */
+//   -webkit-transform: rotate(12deg); /* Chrome, Safari, Opera */
+//   transform: rotate(12deg);
+//   img{width: 200px;}
+//   top: 280px;
+//   right: 700px;
+//   cursor: pointer;
+// }
+
+// @media (max-width: 2440px) {
+//   .tweet-badge{
+//     right: 650px;
+//   }
+// }
+// @media (max-width: 2350px) {
+//   .tweet-badge{
+//     right: 600px;
+//   }
+// }
+// @media (max-width: 2250px) {
+//   .tweet-badge{
+//     right: 550px;
+//   }
+// }
+// @media (max-width: 2150px) {
+//   .tweet-badge{
+//     right: 500px;
+//   }
+// }
+// @media (max-width: 2100px) {
+//   .tweet-badge{
+//     right: 480px;
+//   }
+// }
+// @media (max-width: 2000px) {
+//   .tweet-badge{
+//     right: 400px;
+//   }
+// }
+// @media (max-width: 1850px) {
+//   .tweet-badge{
+//     right: 350px;
+//   }
+// }
+// @media (max-width: 1750px) {
+//   .tweet-badge{
+//     right: 300px;
+//   }
+// }
+// @media (max-width: 1650px) {
+//   .tweet-badge{
+//     right: 250px;
+//   }
+// }
+// @media (max-width: 1550px) {
+//   .tweet-badge{
+//     right: 200px;
+//   }
+// }
+// @media (max-width: 1450px) {
+//   .tweet-badge{
+//     right: 150px;
+//   }
+// }
+// @media (max-width: 1350px) {
+//   .tweet-badge{
+//     right: 100px;
+//   }
+// }
+// @media (max-width: 1250px) {
+//   .tweet-badge{
+//     right: 50px;
+//   }
+// }
+// @media (max-width: 1200px) {
+//   .tweet-badge{
+//     top: 400px;
+//     right: 120px;
+//   }
+// }
+// @media (max-width: 990px) {
+//   .tweet-badge{
+//     top: 320px;
+//     right: 80px;
+//   }
+// }
+// @media (max-width: 900px) {
+//   .tweet-badge{
+//     top: 320px;
+//     right: 20px;
+//   }
+// }
+@media (max-width: 700px) {
+  .tweet-badge{
+    position: absolute !important;
+    top: 520px;
+    left: 30px !important;
+    img{
+      width: 150px;
+    }
+  }
+}
+@media (max-width: 590px) {
+  .tweet-badge{
+    position: absolute !important;
+    top: 490px;
+    left: 30px !important;
+    img{
+      width: 150px;
+    }
+  }
+}
+@media (max-width: 440px) {
+  .tweet-badge{
+    position: absolute !important;
+    top: 370px;
+    left: 3px !important;
+    img{
+      width: 150px;
+    }
+  }
+  .join{
+    font-size: 25px !important;
+  }
+}
+.subtext{
+  margin-top: 50px !important;
+}
+small, .ss-choice-label{
+  color: white;
+}
+.full-w{
+  width: 100%;
+}
+.ytvid{
+  margin-bottom: 2%;
+}
+
+#contest-wrapper .ss-form input {
+  width: 100%;
+}
+#contest-wrapper{
+  font-family: "Helvetica", sans-serif !important;
+  min-height: 233px;
+}
+
+.footer{
+  margin-top: 2%;
+}
+.foot-icon{
+  padding: 0 5px;
+}
